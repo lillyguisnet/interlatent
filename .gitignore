@@ -1,0 +1,18 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# large or generated files (keep them on /mnt/fast/lilly/interlatent)
+data/
+runs/
+outputs/
+tmp/
+*.pt
+*.pth
+*.safetensors
